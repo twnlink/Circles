@@ -1,0 +1,48 @@
+{
+  "bot": {
+    "name": "Circles",
+    "owner": "346676896794279937",
+    "prefix": "c.",
+    "token": "Token"
+  },
+  "rethink": {
+    "host": "127.0.0.1",
+    "username": "admin",
+    "password": "nah",
+    "db": "circles"
+  },
+  "constants": {
+    "colors": {
+      "red": "#EE6352",
+      "blue": "#55C1FF",
+      "green": "#3AB795",
+      "white": "#FFFFFF",
+      "black": "#1E1E1E"
+    },
+    "emoji": {
+      "check": "<:check:404568151783637002>",
+      "cross": "<:xmark:404568151842357248>",
+      "empty": "<:empty:404568151712333836>"
+    }
+  },
+  "ids": {
+    "server": "431864638385291264",
+    "category": "431866855792181248",
+    "betrayed": "431868770760392704",
+    "logchannel": "431900922604421140"
+  },
+  "modules": [
+    {
+      "id": "misc",
+      "name": "Miscellaneous"
+    },
+    {
+      "id": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "circles",
+      "name": "Circles"
+    }
+  ]
+}
